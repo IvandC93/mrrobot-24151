@@ -1,0 +1,49 @@
+:root {
+    font-size: 44px; /*tamaño base*/
+}
+body {
+    background-color: rgb(229, 203, 73); /*Commit 1 en CSS*/
+    color: #111;
+    padding-left: 11em;
+}
+h1 {
+    color: rgb(54, 25, 183);
+    background-color: rgb(187, 223, 26);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+
+h2 {
+    color: crimson;
+    font-size: 1rem;
+}
+#especial {
+    color: blue;
+    text-align: right;
+}
+ul.navbar {
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 2em;
+    left: 1em;
+    width: 9em;
+}
+ul.navbar li {
+    background-color: darkgoldenrod;  
+    margin: .5em 0;
+    padding: .3em;
+    border-right: 1em solid #000;
+}
+ul.navbar a {
+    text-decoration: none;
+}    
+a:link {
+    color: blue;
+}
+a:visited {
+    color: rgb(245, 17, 17);
+}
+  
+
